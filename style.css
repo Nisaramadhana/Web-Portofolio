@@ -111,94 +111,6 @@ footer {
   margin-top: 40px;
   border-top: 3px solid #c08ac8;
 }
-
-/* SEO Guide Section */
-.seo-guide {
-  background-color: #fbeaf7;
-  padding: 50px 30px;
-  margin: 40px auto;
-  max-width: 1000px;
-  border-radius: 20px;
-  box-shadow: 0 6px 20px rgba(200, 162, 200, 0.25);
-}
-
-.seo-guide h2 {
-  text-align: center;
-  color: #8e44ad;
-  margin-bottom: 40px;
-  font-size: 2.2rem;
-  border-bottom: 3px solid #dba2df;
-  display: inline-block;
-  padding-bottom: 10px;
-}
-
-/* Individual SEO Steps */
-.seo-step {
-  background-color: #fff;
-  padding: 25px 30px;
-  margin-bottom: 30px;
-  border-left: 6px solid #c08ac8;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(175, 136, 175, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.seo-step:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(175, 136, 175, 0.25);
-}
-
-.seo-step h3 {
-  color: #a3449b;
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.seo-step p {
-  color: #4a274f;
-  margin-bottom: 12px;
-  font-size: 1rem;
-}
-
-.seo-step ul li {
-  margin-bottom: 8px;
-  color: #51325d;
-  line-height: 1.6;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .seo-step {
-    padding: 20px;
-  }
-
-  .seo-step h3 {
-    font-size: 1.3rem;
-  }
-
-  .seo-step p,
-  .seo-step ul li {
-    font-size: 0.95rem;
-  }
-}
-
 /* Kontak Container */
 .contact-container {
   display: flex;
@@ -366,4 +278,82 @@ footer {
     width: 200px;
     height: 200px;
   }
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+nav {
+  background-color: #005f73;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #94d2bd;
+}
+
+.project-experience {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-experience h2 {
+  text-align: center;
+  color: #005f73;
+  margin-bottom: 20px;
+}
+
+.project-experience p {
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+section ul {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+}
+
+section h3 {
+  text-align: center;
+  color: #0a9396;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #005f73;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+  font-size: 14px;
+  position: relative;
 }
