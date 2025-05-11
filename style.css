@@ -132,39 +132,6 @@ footer {
   padding-bottom: 10px;
 }
 
-/* Individual SEO Steps */
-.seo-step {
-  background-color: #fff;
-  padding: 25px 30px;
-  margin-bottom: 30px;
-  border-left: 6px solid #c08ac8;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(175, 136, 175, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.seo-step:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(175, 136, 175, 0.25);
-}
-
-.seo-step h3 {
-  color: #a3449b;
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.seo-step p {
-  color: #4a274f;
-  margin-bottom: 12px;
-  font-size: 1rem;
-}
-
-.seo-step ul li {
-  margin-bottom: 8px;
-  color: #51325d;
-  line-height: 1.6;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -367,3 +334,69 @@ footer {
     height: 200px;
   }
 }
+/* Bagian Projek */
+.project-experience {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #f8c1e1; /* Warna pink pastel yang senada */
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  color: #8e44ad; /* Warna ungu senada */
+}
+
+/* Judul Projek */
+.project-experience h2 {
+  text-align: center;
+  color: #8e44ad; /* Warna ungu senada */
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Deskripsi Projek */
+.project-experience p {
+  line-height: 1.8;
+  font-size: 16px;
+  color: #4a274f; /* Warna yang lebih gelap untuk teks */
+  margin-bottom: 15px;
+}
+
+/* List dalam Projek */
+.project-experience ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-experience ul li {
+  margin-bottom: 10px;
+  color: #a3449b; /* Warna ungu yang lebih terang */
+}
+
+/* Link dalam Projek */
+.project-experience a {
+  color: #8e44ad;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-experience a:hover {
+  color: #d291bc; /* Warna ungu pink lebih terang */
+  text-decoration: underline;
+}
+
+/* Responsif untuk tampilan lebih kecil */
+@media (max-width: 768px) {
+  .project-experience {
+    padding: 20px 30px;
+  }
+
+  .project-experience h2 {
+    font-size: 1.8rem;
+  }
+
+  .project-experience p {
+    font-size: 15px;
+  }
+}
+
